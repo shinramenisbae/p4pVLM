@@ -1,0 +1,13 @@
+# Large data files
+*.csv
+fer2013.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+*_venv/
+venv/
+env/
