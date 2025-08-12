@@ -22,7 +22,6 @@ class EmotionDetector:
         self.output_dir = output_dir
         self.enable_valence_arousal = enable_valence_arousal
 
-        # output directory
         if not os.path.exists(self.output_dir):
             os.makedirs(self.output_dir)
             print(f"Created output directory: {self.output_dir}")
@@ -39,6 +38,7 @@ class EmotionDetector:
                     "microsoft/kosmos-2-patch14-224"
                 )
             else:
+                # load emotion classifier, note that this code snippet is part of the class constructor __init__
                 self.emotion_classifier = pipeline(
                     "image-classification",
                     model="dima806/facial_emotions_image_detection",
@@ -124,14 +124,19 @@ class EmotionDetector:
             print(f"Error saving frame: {e}")
 
     def detect_emotions(self, frame):
+        # convert to grayscale
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
+        # detect faces
         faces = self.face_cascade.detectMultiScale(gray, 1.1, 4)
 
+        # store results
         results = []
         for x, y, w, h in faces:
+            # crop face
             face_img = frame[y : y + h, x : x + w]
 
+            # convert to PIL image
             pil_img = Image.fromarray(cv2.cvtColor(face_img, cv2.COLOR_BGR2RGB))
 
             try:
