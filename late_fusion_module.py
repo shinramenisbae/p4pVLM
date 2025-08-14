@@ -109,8 +109,14 @@ class LateFusionModule:
         # Valence-Arousal to emotion mapping (Russell's Circumplex Model)
         self.va_to_emotion_map = self._create_va_emotion_mapping()
         
-        # Initialize biosignal classifier
-        self.biosignal_model = self._load_biosignal_model(biosignal_model_path)
+        # Initialize biosignal classifier (gracefully handle missing model for manual-input scenarios)
+        try:
+            self.biosignal_model = self._load_biosignal_model(biosignal_model_path)
+        except Exception as e:
+            self.logger.warning(
+                f"Biosignal model unavailable; continuing without it (manual inputs still supported). Reason: {e}"
+            )
+            self.biosignal_model = None
         
         # Initialize visual classifier
         self.visual_detector = None
@@ -171,6 +177,12 @@ class LateFusionModule:
         Returns:
             BiosignalPrediction object
         """
+        # If the biosignal model isn't loaded, return a neutral low-confidence default
+        if self.biosignal_model is None:
+            return BiosignalPrediction(
+                valence=0, arousal=0, confidence=0.0, timestamp=time.time()
+            )
+
         try:
             # Convert to tensor
             if len(signal_data.shape) == 1:

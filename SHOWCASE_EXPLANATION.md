@@ -130,7 +130,7 @@ active\venv\Scripts\activate.bat
 python test_fusion_basic.py
 
 # Run the impressive showcase
-python showcase_demo.py
+python fusion_demo.py
 ```
 
 ### What Your Partner Will See

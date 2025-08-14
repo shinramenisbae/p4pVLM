@@ -11,3 +11,6 @@ __pycache__/
 *_venv/
 venv/
 env/
+
+.DS_Store
+webcam_captures/
