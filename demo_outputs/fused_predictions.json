@@ -1,0 +1,1163 @@
+[
+  {
+    "fusion_id": 1,
+    "biosignal_segment": 1,
+    "visual_frame": 60,
+    "timestamp": 1755174163.159864,
+    "valence": 0.4,
+    "arousal": -0.4,
+    "discrete_emotion": "calm",
+    "fusion_confidence": 0.5867029070854187,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 0,
+        "confidence": 0.5359551012516022
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6205347776412964,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 2,
+    "biosignal_segment": 2,
+    "visual_frame": 60,
+    "timestamp": 1755174163.160664,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5948505759239197,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5563242733478546
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6205347776412964,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 3,
+    "biosignal_segment": 3,
+    "visual_frame": 120,
+    "timestamp": 1755174163.1613429,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.6076230764389038,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5572798550128937
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6411852240562439,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 4,
+    "biosignal_segment": 4,
+    "visual_frame": 180,
+    "timestamp": 1755174163.161849,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5495587229728699,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571562945842743
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5444936752319336,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 5,
+    "biosignal_segment": 5,
+    "visual_frame": 240,
+    "timestamp": 1755174163.162345,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5521087288856507,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571890473365784
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5487218499183655,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 6,
+    "biosignal_segment": 6,
+    "visual_frame": 300,
+    "timestamp": 1755174163.16277,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5870843887329101,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5572509467601776
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6069733500480652,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 7,
+    "biosignal_segment": 7,
+    "visual_frame": 420,
+    "timestamp": 1755174163.163179,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5191371977329253,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571557581424713
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.49379149079322815,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 8,
+    "biosignal_segment": 8,
+    "visual_frame": 480,
+    "timestamp": 1755174163.16367,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5551120638847351,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571852326393127
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5537299513816833,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 9,
+    "biosignal_segment": 9,
+    "visual_frame": 540,
+    "timestamp": 1755174163.164138,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5526303291320801,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571979880332947
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.549585223197937,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 10,
+    "biosignal_segment": 10,
+    "visual_frame": 600,
+    "timestamp": 1755174163.164572,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.6088992714881897,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571723878383636
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6433838605880737,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 11,
+    "biosignal_segment": 11,
+    "visual_frame": 660,
+    "timestamp": 1755174163.165053,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5952425241470337,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.557183712720871
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6206150650978088,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 12,
+    "biosignal_segment": 12,
+    "visual_frame": 720,
+    "timestamp": 1755174163.165459,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5924359440803528,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571529865264893
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6159579157829285,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 13,
+    "biosignal_segment": 13,
+    "visual_frame": 780,
+    "timestamp": 1755174163.1658869,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.4991535484790802,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571449995040894
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4604925811290741,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 14,
+    "biosignal_segment": 14,
+    "visual_frame": 840,
+    "timestamp": 1755174163.166283,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5287308931350708,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571345388889313
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5097951292991638,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 15,
+    "biosignal_segment": 15,
+    "visual_frame": 900,
+    "timestamp": 1755174163.166691,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5669027328491212,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571379363536835
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5734125971794128,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 16,
+    "biosignal_segment": 16,
+    "visual_frame": 960,
+    "timestamp": 1755174163.167082,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.4948692679405212,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571544170379639
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4533458352088928,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 17,
+    "biosignal_segment": 17,
+    "visual_frame": 1080,
+    "timestamp": 1755174163.167457,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5634915828704834,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571494102478027
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5677196979522705,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 18,
+    "biosignal_segment": 18,
+    "visual_frame": 1140,
+    "timestamp": 1755174163.1678138,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.4882106304168701,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571397542953491
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4422578811645508,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 19,
+    "biosignal_segment": 19,
+    "visual_frame": 1200,
+    "timestamp": 1755174163.168162,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5550751566886902,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571213066577911
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5537110567092896,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 20,
+    "biosignal_segment": 20,
+    "visual_frame": 1260,
+    "timestamp": 1755174163.1685069,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5471170663833618,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571966469287872
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5403973460197449,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 21,
+    "biosignal_segment": 21,
+    "visual_frame": 1320,
+    "timestamp": 1755174163.1688478,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.47517349720001223,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.5571861863136292
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4204983711242676,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 22,
+    "biosignal_segment": 22,
+    "visual_frame": 1380,
+    "timestamp": 1755174163.16919,
+    "valence": 0.4,
+    "arousal": -0.4,
+    "discrete_emotion": "calm",
+    "fusion_confidence": 0.5472163915634156,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 0,
+        "confidence": 0.5531825721263885
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5432389378547668,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 23,
+    "biosignal_segment": 23,
+    "visual_frame": 1440,
+    "timestamp": 1755174163.169534,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.6123485445976258,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.7009022831916809
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5533127188682556,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 24,
+    "biosignal_segment": 24,
+    "visual_frame": 1500,
+    "timestamp": 1755174163.16995,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.6500715017318726,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.8986892998218536
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4843263030052185,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 25,
+    "biosignal_segment": 25,
+    "visual_frame": 1560,
+    "timestamp": 1755174163.17034,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7254197478294373,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9628432393074036
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5671374201774597,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 26,
+    "biosignal_segment": 26,
+    "visual_frame": 1680,
+    "timestamp": 1755174163.170795,
+    "valence": 0.10670400619506837,
+    "arousal": 0.2533520030975342,
+    "discrete_emotion": "calm",
+    "fusion_confidence": 0.7294680953025818,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9071202576160431
+      },
+      "visual": {
+        "emotion": "sad",
+        "valence": -0.48882665634155276,
+        "arousal": -0.24441332817077638,
+        "confidence": 0.6110333204269409,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 27,
+    "biosignal_segment": 27,
+    "visual_frame": 1680,
+    "timestamp": 1755174163.171167,
+    "valence": 0.10670400619506837,
+    "arousal": 0.2533520030975342,
+    "discrete_emotion": "calm",
+    "fusion_confidence": 0.7029929757118225,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.8409324586391449
+      },
+      "visual": {
+        "emotion": "sad",
+        "valence": -0.48882665634155276,
+        "arousal": -0.24441332817077638,
+        "confidence": 0.6110333204269409,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 28,
+    "biosignal_segment": 28,
+    "visual_frame": 1800,
+    "timestamp": 1755174163.171535,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7418778896331788,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9441646039485931
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6070200800895691,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 29,
+    "biosignal_segment": 29,
+    "visual_frame": 1860,
+    "timestamp": 1755174163.1718762,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7277956247329712,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9876215159893036
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5545783638954163,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 30,
+    "biosignal_segment": 30,
+    "visual_frame": 1920,
+    "timestamp": 1755174163.172218,
+    "valence": 0.18938263416290285,
+    "arousal": 0.6106173658370972,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.653603607416153,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9758297502994537
+      },
+      "visual": {
+        "emotion": "angry",
+        "valence": -0.35102894306182864,
+        "arousal": 0.35102894306182864,
+        "confidence": 0.43878617882728577,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 31,
+    "biosignal_segment": 31,
+    "visual_frame": 1980,
+    "timestamp": 1755174163.172576,
+    "valence": 0.23752599716186526,
+    "arousal": 0.5624740028381348,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.5930246591567994,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9748303890228271
+      },
+      "visual": {
+        "emotion": "angry",
+        "valence": -0.27079000473022463,
+        "arousal": 0.27079000473022463,
+        "confidence": 0.33848750591278076,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 32,
+    "biosignal_segment": 32,
+    "visual_frame": 2040,
+    "timestamp": 1755174163.172927,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7727812767028809,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9717037677764893
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6401662826538086,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 33,
+    "biosignal_segment": 33,
+    "visual_frame": 2100,
+    "timestamp": 1755174163.1732821,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7628963232040405,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.8460464477539062
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.7074629068374634,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 34,
+    "biosignal_segment": 34,
+    "visual_frame": 2160,
+    "timestamp": 1755174163.1736782,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7963182568550109,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9853799641132355
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6702771186828613,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 35,
+    "biosignal_segment": 35,
+    "visual_frame": 2220,
+    "timestamp": 1755174163.1740491,
+    "valence": 0.4,
+    "arousal": -0.4,
+    "discrete_emotion": "calm",
+    "fusion_confidence": 0.6366218805313111,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 0,
+        "confidence": 0.9784910380840302
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4087091088294983,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 36,
+    "biosignal_segment": 36,
+    "visual_frame": 2280,
+    "timestamp": 1755174163.174392,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7775638461112976,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9782751202583313
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6437563300132751,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 37,
+    "biosignal_segment": 37,
+    "visual_frame": 2400,
+    "timestamp": 1755174163.1748,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7880366802215577,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9756531417369843
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6629590392112732,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 38,
+    "biosignal_segment": 38,
+    "visual_frame": 2460,
+    "timestamp": 1755174163.175353,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.6929788053035737,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9871462881565094
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.4968671500682831,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 39,
+    "biosignal_segment": 39,
+    "visual_frame": 2520,
+    "timestamp": 1755174163.175749,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7222219586372376,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9721116423606873
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.5556288361549377,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 40,
+    "biosignal_segment": 40,
+    "visual_frame": 2580,
+    "timestamp": 1755174163.176138,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.753004503250122,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9726660847663879
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6065634489059448,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 41,
+    "biosignal_segment": 41,
+    "visual_frame": 2580,
+    "timestamp": 1755174163.176534,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.754185962677002,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9756197333335876
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6065634489059448,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 42,
+    "biosignal_segment": 42,
+    "visual_frame": 2580,
+    "timestamp": 1755174163.176874,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7528515100479126,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9722836017608643
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6065634489059448,
+        "faces": 1
+      }
+    }
+  },
+  {
+    "fusion_id": 43,
+    "biosignal_segment": 43,
+    "visual_frame": 2580,
+    "timestamp": 1755174163.177372,
+    "valence": 0.4,
+    "arousal": 0.4,
+    "discrete_emotion": "happy",
+    "fusion_confidence": 0.7523230075836181,
+    "fusion_strategy": "weighted_average",
+    "biosignal_contribution": 0.4,
+    "visual_contribution": 0.6,
+    "metadata": {
+      "biosignal": {
+        "valence": 1,
+        "arousal": 1,
+        "confidence": 0.9709623456001282
+      },
+      "visual": {
+        "emotion": "neutral",
+        "valence": 0.0,
+        "arousal": 0.0,
+        "confidence": 0.6065634489059448,
+        "faces": 1
+      }
+    }
+  }
+]

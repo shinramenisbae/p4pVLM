@@ -1,0 +1,690 @@
+[
+  {
+    "frame_id": 60,
+    "timestamp": 2.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6205347776412964,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      702,
+      313,
+      510,
+      510
+    ],
+    "processing_time": 1755174164.49893
+  },
+  {
+    "frame_id": 120,
+    "timestamp": 4.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6411852240562439,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      483,
+      303,
+      510,
+      510
+    ],
+    "processing_time": 1755174164.7810519
+  },
+  {
+    "frame_id": 180,
+    "timestamp": 6.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5444936752319336,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      474,
+      304,
+      627,
+      627
+    ],
+    "processing_time": 1755174165.047895
+  },
+  {
+    "frame_id": 240,
+    "timestamp": 8.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5487218499183655,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      506,
+      296,
+      653,
+      653
+    ],
+    "processing_time": 1755174165.3167171
+  },
+  {
+    "frame_id": 300,
+    "timestamp": 10.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6069733500480652,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      539,
+      315,
+      626,
+      626
+    ],
+    "processing_time": 1755174165.584356
+  },
+  {
+    "frame_id": 360,
+    "timestamp": 12.0,
+    "face_id": 0,
+    "emotion": "sad",
+    "confidence": 0.459907591342926,
+    "valence": -0.36792607307434083,
+    "arousal": -0.18396303653717042,
+    "position": [
+      524,
+      310,
+      636,
+      636
+    ],
+    "processing_time": 1755174165.8525388
+  },
+  {
+    "frame_id": 420,
+    "timestamp": 14.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.49379149079322815,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      513,
+      317,
+      629,
+      629
+    ],
+    "processing_time": 1755174166.2036202
+  },
+  {
+    "frame_id": 420,
+    "timestamp": 14.0,
+    "face_id": 1,
+    "emotion": "fear",
+    "confidence": 0.2197461724281311,
+    "valence": -0.197771555185318,
+    "arousal": 0.197771555185318,
+    "position": [
+      921,
+      139,
+      53,
+      53
+    ],
+    "processing_time": 1755174166.2036412
+  },
+  {
+    "frame_id": 480,
+    "timestamp": 16.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5537299513816833,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      500,
+      300,
+      657,
+      657
+    ],
+    "processing_time": 1755174166.47014
+  },
+  {
+    "frame_id": 540,
+    "timestamp": 18.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.549585223197937,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      502,
+      308,
+      642,
+      642
+    ],
+    "processing_time": 1755174166.7376
+  },
+  {
+    "frame_id": 600,
+    "timestamp": 20.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6433838605880737,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      507,
+      314,
+      634,
+      634
+    ],
+    "processing_time": 1755174167.0100448
+  },
+  {
+    "frame_id": 660,
+    "timestamp": 22.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6206150650978088,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      503,
+      307,
+      633,
+      633
+    ],
+    "processing_time": 1755174167.2787251
+  },
+  {
+    "frame_id": 720,
+    "timestamp": 24.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6159579157829285,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      521,
+      301,
+      648,
+      648
+    ],
+    "processing_time": 1755174167.545795
+  },
+  {
+    "frame_id": 780,
+    "timestamp": 26.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4604925811290741,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      524,
+      306,
+      638,
+      638
+    ],
+    "processing_time": 1755174167.810807
+  },
+  {
+    "frame_id": 840,
+    "timestamp": 28.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5097951292991638,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      512,
+      304,
+      645,
+      645
+    ],
+    "processing_time": 1755174168.088081
+  },
+  {
+    "frame_id": 900,
+    "timestamp": 30.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5734125971794128,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      503,
+      308,
+      637,
+      637
+    ],
+    "processing_time": 1755174168.367232
+  },
+  {
+    "frame_id": 960,
+    "timestamp": 32.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4533458352088928,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      509,
+      312,
+      635,
+      635
+    ],
+    "processing_time": 1755174168.6363158
+  },
+  {
+    "frame_id": 1020,
+    "timestamp": 34.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5745038986206055,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      535,
+      320,
+      627,
+      627
+    ],
+    "processing_time": 1755174168.907918
+  },
+  {
+    "frame_id": 1080,
+    "timestamp": 36.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5677196979522705,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      538,
+      322,
+      618,
+      618
+    ],
+    "processing_time": 1755174169.176589
+  },
+  {
+    "frame_id": 1140,
+    "timestamp": 38.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4422578811645508,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      535,
+      319,
+      619,
+      619
+    ],
+    "processing_time": 1755174169.445586
+  },
+  {
+    "frame_id": 1200,
+    "timestamp": 40.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5537110567092896,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      530,
+      316,
+      626,
+      626
+    ],
+    "processing_time": 1755174169.715395
+  },
+  {
+    "frame_id": 1260,
+    "timestamp": 42.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5403973460197449,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      539,
+      319,
+      611,
+      611
+    ],
+    "processing_time": 1755174169.981642
+  },
+  {
+    "frame_id": 1320,
+    "timestamp": 44.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4204983711242676,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      530,
+      315,
+      623,
+      623
+    ],
+    "processing_time": 1755174170.249648
+  },
+  {
+    "frame_id": 1380,
+    "timestamp": 46.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5432389378547668,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      518,
+      298,
+      612,
+      612
+    ],
+    "processing_time": 1755174170.517951
+  },
+  {
+    "frame_id": 1440,
+    "timestamp": 48.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5533127188682556,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      519,
+      302,
+      626,
+      626
+    ],
+    "processing_time": 1755174170.785527
+  },
+  {
+    "frame_id": 1500,
+    "timestamp": 50.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4843263030052185,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      520,
+      305,
+      623,
+      623
+    ],
+    "processing_time": 1755174171.0559978
+  },
+  {
+    "frame_id": 1560,
+    "timestamp": 52.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5671374201774597,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      519,
+      298,
+      633,
+      633
+    ],
+    "processing_time": 1755174171.3255749
+  },
+  {
+    "frame_id": 1620,
+    "timestamp": 54.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5333666205406189,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      530,
+      300,
+      635,
+      635
+    ],
+    "processing_time": 1755174171.596354
+  },
+  {
+    "frame_id": 1680,
+    "timestamp": 56.0,
+    "face_id": 0,
+    "emotion": "sad",
+    "confidence": 0.6110333204269409,
+    "valence": -0.48882665634155276,
+    "arousal": -0.24441332817077638,
+    "position": [
+      531,
+      313,
+      617,
+      617
+    ],
+    "processing_time": 1755174171.8620632
+  },
+  {
+    "frame_id": 1800,
+    "timestamp": 60.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6070200800895691,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      580,
+      302,
+      513,
+      513
+    ],
+    "processing_time": 1755174172.3067892
+  },
+  {
+    "frame_id": 1860,
+    "timestamp": 62.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5545783638954163,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      466,
+      329,
+      531,
+      531
+    ],
+    "processing_time": 1755174172.5723038
+  },
+  {
+    "frame_id": 1920,
+    "timestamp": 64.0,
+    "face_id": 0,
+    "emotion": "angry",
+    "confidence": 0.43878617882728577,
+    "valence": -0.35102894306182864,
+    "arousal": 0.35102894306182864,
+    "position": [
+      674,
+      408,
+      530,
+      530
+    ],
+    "processing_time": 1755174172.838176
+  },
+  {
+    "frame_id": 1980,
+    "timestamp": 66.0,
+    "face_id": 0,
+    "emotion": "angry",
+    "confidence": 0.33848750591278076,
+    "valence": -0.27079000473022463,
+    "arousal": 0.27079000473022463,
+    "position": [
+      638,
+      430,
+      497,
+      497
+    ],
+    "processing_time": 1755174173.109061
+  },
+  {
+    "frame_id": 2040,
+    "timestamp": 68.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6401662826538086,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      697,
+      429,
+      538,
+      538
+    ],
+    "processing_time": 1755174173.43045
+  },
+  {
+    "frame_id": 2100,
+    "timestamp": 70.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.7074629068374634,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      636,
+      415,
+      520,
+      520
+    ],
+    "processing_time": 1755174173.6944158
+  },
+  {
+    "frame_id": 2160,
+    "timestamp": 72.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6702771186828613,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      641,
+      432,
+      550,
+      550
+    ],
+    "processing_time": 1755174173.9599512
+  },
+  {
+    "frame_id": 2220,
+    "timestamp": 74.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4087091088294983,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      421,
+      352,
+      465,
+      465
+    ],
+    "processing_time": 1755174174.2215412
+  },
+  {
+    "frame_id": 2280,
+    "timestamp": 76.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6437563300132751,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      591,
+      449,
+      522,
+      522
+    ],
+    "processing_time": 1755174174.485258
+  },
+  {
+    "frame_id": 2340,
+    "timestamp": 78.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6257720589637756,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      601,
+      411,
+      554,
+      554
+    ],
+    "processing_time": 1755174174.749032
+  },
+  {
+    "frame_id": 2400,
+    "timestamp": 80.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6629590392112732,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      614,
+      415,
+      553,
+      553
+    ],
+    "processing_time": 1755174175.012025
+  },
+  {
+    "frame_id": 2460,
+    "timestamp": 82.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.4968671500682831,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      616,
+      426,
+      550,
+      550
+    ],
+    "processing_time": 1755174175.277196
+  },
+  {
+    "frame_id": 2520,
+    "timestamp": 84.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.5556288361549377,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      631,
+      433,
+      543,
+      543
+    ],
+    "processing_time": 1755174175.540457
+  },
+  {
+    "frame_id": 2580,
+    "timestamp": 86.0,
+    "face_id": 0,
+    "emotion": "neutral",
+    "confidence": 0.6065634489059448,
+    "valence": 0.0,
+    "arousal": 0.0,
+    "position": [
+      632,
+      426,
+      542,
+      542
+    ],
+    "processing_time": 1755174175.8052402
+  }
+]

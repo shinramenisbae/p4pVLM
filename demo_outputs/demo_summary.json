@@ -1,0 +1,42 @@
+{
+  "demo_info": {
+    "timestamp": "2025-08-15T00:22:55.901844",
+    "csv_file": "passive/model/network/input-folder/tester.csv",
+    "video_file": "visual_data_test.mp4",
+    "fusion_weights": {
+      "biosignal": 0.4,
+      "visual": 0.6
+    }
+  },
+  "prediction_counts": {
+    "biosignal": 43,
+    "visual": 43,
+    "fused": 43
+  },
+  "biosignal_summary": {
+    "valence_distribution": {
+      "1": 43
+    },
+    "arousal_distribution": {
+      "0": 3,
+      "1": 40
+    },
+    "average_confidence": 0.7444424261880476
+  },
+  "visual_summary": {
+    "emotion_distribution": {
+      "neutral": 38,
+      "sad": 2,
+      "fear": 1,
+      "angry": 2
+    },
+    "average_confidence": 0.5456793086473332
+  },
+  "fusion_summary": {
+    "emotion_distribution": {
+      "calm": 5,
+      "happy": 38
+    },
+    "average_confidence": 0.6340863524481308
+  }
+}
