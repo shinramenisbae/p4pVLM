@@ -10,6 +10,13 @@ from pydantic import BaseModel
 
 from emotion_detector import EmotionDetector
 
+# Load environment variables from a .env file, if present (search upwards)
+try:
+    from dotenv import load_dotenv, find_dotenv  # type: ignore
+    load_dotenv(find_dotenv(), override=False)
+except Exception:
+    pass
+
 # --- Passive biosignal imports ---
 import os
 import sys
@@ -81,7 +88,16 @@ PASSIVE_EMAIL = os.getenv("PASSIVE_EMAIL")
 PASSIVE_PASSWORD = os.getenv("PASSIVE_PASSWORD")
 PASSIVE_USER_ID = os.getenv("PASSIVE_USER_ID")
 # Optional simulation start (ISO format). If not provided, start from now-12s.
-PASSIVE_SIMULATE_FROM = os.getenv("PASSIVE_SIMULATE_FROM")
+PASSIVE_SIMULATE_FROM = os.getenv("PASSIVE_SIMULATE_FROM") or os.getenv("passive_simulate_from")
+PASSIVE_DEBUG = str(os.getenv("PASSIVE_DEBUG", "")).lower() in ("1", "true", "yes", "y")
+
+if PASSIVE_DEBUG:
+    try:
+        print(
+            f"[passive] Debug: BASE_URL={PASSIVE_BASE_URL} email_set={bool(PASSIVE_EMAIL)} user_id_set={bool(PASSIVE_USER_ID)} simulate_from={PASSIVE_SIMULATE_FROM}"
+        )
+    except Exception:
+        pass
 
 # Global state for research API session and last timestamp window
 _passive_token: Optional[str] = None
@@ -93,7 +109,10 @@ _passive_model_device = torch.device("cuda" if torch.cuda.is_available() else "c
 try:
     if EmotionCNN is not None:
         _passive_model = EmotionCNN()
+        print("test1")
         weights_path = os.path.join(_PASSIVE_NET_DIR, "emotion_cnn.pth")
+        print("test2")
+        print(f"[passive] Loading model from {weights_path}")
         if os.path.exists(weights_path):
             state = torch.load(weights_path, map_location=_passive_model_device)
             _passive_model.load_state_dict(state)
@@ -250,12 +269,16 @@ def predict(
 @app.get("/passive/predict")
 def passive_predict():
     """Fetch 12s biosignal window from research API, run CNN, return valence/arousal.
-    Falls back to simulation if credentials/model unavailable."""
+    Falls back to simulation if credentials/model unavailable.
+    If PASSIVE_SIMULATE_FROM is set, the response will mark simulated=True (for clarity)
+    even if real data was fetched, while still using real data where available.
+    """
     global _passive_token, _passive_last_ts
     try:
         # Init last ts
         if _passive_last_ts is None:
             if PASSIVE_SIMULATE_FROM:
+                simulated = True
                 try:
                     _passive_last_ts = datetime.fromisoformat(PASSIVE_SIMULATE_FROM)
                 except Exception:
@@ -292,13 +315,21 @@ def passive_predict():
                     ppg = _clean_ppg_values(rows)
                     v_class, a_class = _predict_valence_arousal_from_ppg(ppg)
                 else:
+                    if PASSIVE_DEBUG:
+                        print(f"[passive] Debug: research API non-200: {resp.status_code}")
                     simulated = True
                     v_class, a_class = 1, 1
             else:
+                if PASSIVE_DEBUG:
+                    print(
+                        f"[passive] Debug: simulating due to missing token or user id (token_set={bool(_passive_token)}, user_id_set={bool(PASSIVE_USER_ID)})"
+                    )
                 simulated = True
                 v_class, a_class = 1, 1
         except Exception:
             # Treat network/HTTP errors as simulated fallback
+            if PASSIVE_DEBUG:
+                print("[passive] Debug: exception when fetching research data; simulating")
             simulated = True
             v_class, a_class = 1, 1
 
@@ -309,9 +340,11 @@ def passive_predict():
         def to_score(c: int) -> float:
             return 1.0 if int(c) == 1 else -1.0
 
+        # If a simulate-from start time is configured, force the response flag to simulated
+        simulated_flag = True if PASSIVE_SIMULATE_FROM else simulated
         return {
             "success": True,
-            "simulated": simulated,
+            "simulated": simulated_flag,
             "valence_class": int(v_class),
             "arousal_class": int(a_class),
             "valence": to_score(v_class),

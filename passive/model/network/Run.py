@@ -39,8 +39,8 @@ user_id = "11"
 COLUMNS = ["timestamp", "ppg_gr"]
 
 CHUNK_DURATION = 12
-# last_timestamp = datetime.now() - timedelta(seconds=CHUNK_DURATION) #small buffer
-last_timestamp = datetime.fromisoformat("2025-09-12T10:35:48")
+last_timestamp = datetime.now() - timedelta(seconds=CHUNK_DURATION) #small buffer
+#last_timestamp = datetime.fromisoformat("2025-09-12T10:35:48")
 last_timestamp_str = last_timestamp.strftime("%Y-%m-%dT%I:%M:%S")
 
 
