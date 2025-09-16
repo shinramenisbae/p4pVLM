@@ -12,7 +12,7 @@ from imblearn.over_sampling import SMOTE
 
 # Hyperparameters
 BATCH_SIZE = 128
-EPOCHS = 75
+EPOCHS = 100
 LEARNING_RATE = 0.001
 SEED = 42
 
@@ -20,15 +20,19 @@ torch.manual_seed(SEED)
 np.random.seed(SEED)
 
 dataFolder = './data'
+participant32 = './leaveOneOut'
 
 # Load data
 X, y = loadAllParticipants(dataFolder)
+X2, y2 = loadAllParticipants(participant32)
 
 #train test split stratified on both, no smote yet
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=SEED, stratify=y[:,0]
 )
 
+X_test = np.concatenate((X_test, X2), axis=0)
+y_test = np.concatenate((y_test, y2), axis=0)
 
 # convert to tensors for both
 X_train_tensor = torch.tensor(X_train, dtype=torch.float32)
