@@ -16,3 +16,7 @@ env/
 webcam_captures/
 
 .env
+
+.output/
+
+output/

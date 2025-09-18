@@ -127,6 +127,12 @@ try:
 except Exception as e:  # pragma: no cover
     print(f"[passive] Error loading model: {e}")
     _passive_model = None
+############################
+# Active image save config #
+############################
+# Save incoming webcam frames under active/output/<Pid>
+_SAVE_ROOT = os.path.abspath(os.path.join(_THIS_DIR, "output"))
+
 
 
 def _fmt_time(dt: datetime) -> str:
@@ -217,6 +223,9 @@ def predict(
     payload: ImagePayload | None = None,
     image_file: UploadFile | None = File(default=None),
     image_base64: str | None = Form(default=None),
+    pid: str | None = Form(default=None),
+    video_id: str | None = Form(default=None),
+    video_time_sec: int | None = Form(default=None),
 ):
     try:
         # Accept multipart upload or JSON/base64
@@ -230,12 +239,47 @@ def predict(
             if "," in data:
                 data = data.split(",", 1)[1]
             img_bytes = base64.b64decode(data)
+        # Prepare save path under output/<Pid> for annotated image
+        saved_path = None
+        fpath = None
+        try:
+            safe_pid = str(pid or "unknown").strip()
+            safe_pid = "".join(ch for ch in safe_pid if ch.isalnum() or ch in ("-", "_")) or "unknown"
+            out_dir = os.path.join(_SAVE_ROOT, safe_pid)
+            os.makedirs(out_dir, exist_ok=True)
+            # Build filename: "VideoID-VideoTime.jpg"
+            raw_label = str(video_id or "video")
+            base_label = os.path.basename(raw_label)
+            base_label, _ = os.path.splitext(base_label)
+            safe_label = "".join(ch for ch in base_label if ch.isalnum() or ch in ("-", "_")) or "video"
+            try:
+                t_int = int(video_time_sec) if video_time_sec is not None else 0
+            except Exception:
+                t_int = 0
+            fname = f"{safe_label}-{t_int}.jpg"
+            fpath = os.path.join(out_dir, fname)
+        except Exception as e:
+            try:
+                print(f"[active] Error preparing save path: {e}")
+            except Exception:
+                pass
         nparr = np.frombuffer(img_bytes, np.uint8)
         img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
         if img is None:
             raise HTTPException(status_code=400, detail="Invalid image payload")
 
-        _, results = detector.detect_emotions(img)
+        processed_img, results = detector.detect_emotions(img)
+
+        # Save the detector's annotated frame directly (consistent with emotion_detector.py)
+        try:
+            if fpath:
+                ok = cv2.imwrite(fpath, processed_img)
+                if ok and os.path.exists(fpath):
+                    saved_path = fpath
+                else:
+                    print(f"[active] Warning: cv2.imwrite failed or file missing at {fpath}")
+        except Exception as e:
+            print(f"[active] Error saving annotated frame: {e}")
 
         # Select the most confident face (if any) as primary
         primary = None
@@ -261,6 +305,7 @@ def predict(
             "success": True,
             "faces": sanitized_results,
             "primary": sanitized_primary,
+            "savedPath": saved_path,
         }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
